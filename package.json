@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tailwind-config":"npx tailwindcss init --full",
-    "tailwind":"npx tailwindcss -i ./src/tailwind.css -o ./css/tailwind.css"
+    "tailwind-config": "npx tailwindcss init --full",
+    "tailwind": "npx tailwindcss -i ./src/tailwind.css -o ./css/tailwind.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tailwindcss/forms": "^0.3.3",
+    "@tailwindcss/line-clamp": "^0.2.1",
+    "@tailwindcss/typography": "^0.4.1",
     "tailwind": "^4.0.0",
     "tailwindcss": "^2.2.8"
   }

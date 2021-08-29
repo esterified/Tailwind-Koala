@@ -1,5 +1,5 @@
 const colors = require('tailwindcss/colors')
-
+const plugin = require('tailwindcss/plugin')
 module.exports = {
   purge: [],
   presets: [],
@@ -968,6 +968,9 @@ module.exports = {
     zIndex: ['responsive', 'focus-within', 'focus'],
   },
   plugins: [ 
-    
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/line-clamp'),
+    require('@tailwindcss/aspect-ratio'),
     ],
 }
