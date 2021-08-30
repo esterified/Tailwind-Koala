@@ -1,5 +1,5 @@
 # Tailwind-Koala
-HomePage https://esterified.github.io/Tailwind-Koala
+HomePage https://esterified.github.io/Tailwind-Koala <br/>
 Instagram Copy https://esterified.github.io/Tailwind-Koala/instagram
 ## Steps to install TailwindCSS using NPM
 - Initialize NPM
